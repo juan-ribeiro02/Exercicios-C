@@ -2,7 +2,7 @@
 
 void main()
 {
-    float n, a1, r;
+    float n, a1, r, ultimoTermo;
 
     printf("Informe o primeiro termo da P.A:");
     scanf("%f", &a1);
@@ -13,7 +13,8 @@ void main()
     printf("Informe ate que termo voce quer que va:");
     scanf("%f", &n);
 
-    for(; a1 <= (n*r); a1+=r)
+    ultimoTermo = n*r;
+    for(; a1 <= ultimoTermo; a1+=r)
     {
         printf("%.2f\n", a1);
     }
