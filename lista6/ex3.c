@@ -7,7 +7,7 @@
 
 void main()
 {
-    int base, expoente, i;
+    int base, expoente, i, resul = 1;
 
     printf("informe a base");
     scanf("%d", &base);
@@ -17,8 +17,8 @@ void main()
 
     for (i = 1; i <= expoente; i++)
     {
-        base = 
+        resul *= base;
     }
 
-    printf("%d", base);
+    printf("%d", resul);
 }
