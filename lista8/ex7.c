@@ -16,21 +16,19 @@
 
 int divisores(int n, int a, int b)
 {
-    int i, j = 1, k = 1, cont = 0;
+    int i, j, cont = 0;
 
     for(i = a; i <= b; i++)
     {
-        while (k == 1)
+        j = 2;
+        while (j<=3)
         {
             if((n % j == 0) && (i % j == 0))
             {
                 cont++;
                 break;
             }
-            else 
-            {
-                j++;
-            }
+            j++;
         }   
     }
     return cont;
