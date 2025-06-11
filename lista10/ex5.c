@@ -6,7 +6,7 @@ void printVetor(int vet[], int tamanho);
 
 void main()
 {
-    int i, tamanho;
+    int tamanho;
 
     printf("Informe o tamanho do vetor:");
     scanf("%d", &tamanho);
