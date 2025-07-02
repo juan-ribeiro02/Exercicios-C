@@ -7,6 +7,13 @@ int buscarNum(float vetor[], int tamanho, float numProcurado);
 
 void main()
 {
+    // int quantA = 5;
+    // float vA[5] = {1, 2, 3, 5, 7};
+    // int quantB = 4;
+    // float vB[4] = {2, 5, 7, 8};
+    // float vC[5];
+    // int quantC = 0;
+
 	int quantA = 6;
 	float vetA[6] = {5,9,4,3,6,1};
 	int quantB = 4;	
