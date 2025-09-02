@@ -4,7 +4,7 @@ int IsPA(int v[], int quant, int i);
 
 void main()
 {
-    int v[4] = {1, 3, 5, 7};
+    int v[4] = {1, 3, 5, 8};
 
     printf("%d", IsPA(v, 4, 0));
 }
@@ -15,6 +15,7 @@ int IsPA(int v[], int quant, int i)
     {
         return 1;
     }
+
     if(i >= quant -1)
     {
         return 1;
