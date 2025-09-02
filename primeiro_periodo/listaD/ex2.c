@@ -82,7 +82,7 @@ int somaosParesNoVetor(int vetor[], int tamanho)
 
 float mediaPrimosNoVetor(int vetor[], int tamanho)
 {
-    int i
+    int i;
 }
 
 void preencherAleatorio(int vetor[], int tamanho, int limite)
